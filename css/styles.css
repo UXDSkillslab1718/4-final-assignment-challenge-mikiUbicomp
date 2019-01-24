@@ -28,6 +28,7 @@ body{
 	margin: 0;
 	text-align: justify;
 	background: #343434;
+	font-weight: 500;
 }
 h1, h2{
 	font-family: 'Lato', sans-serif;
