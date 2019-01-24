@@ -7,6 +7,7 @@
 #FBF5F3 - white smoke
 #412234 - burgundy
 #eff9f0 - honedew
+#bfd7ea - pale aqua
  
 */
 
@@ -27,6 +28,8 @@ body{
 	font-family: 'Montserrat', sans-serif;
 	margin: 0;
 	text-align: justify;
+	background: #343434;
+	color: #FBF5F3
 }
 h1, h2{
 	font-family: 'Lato', sans-serif;
@@ -42,11 +45,16 @@ h1{
 h2{
 	font-size: 25px;
 	margin-top: 10px;
-
+	font-weight: 700;
+	margin-bottom: 20px;
 }
+
+
+
+
 h3{
 	margin: 0;
-	color: #412234;
+	color: #FBF5F3;
 	text-align: left;
 
 }
@@ -88,11 +96,21 @@ a:hover{
 
 .btn{
 	text-decoration: none;
-	background: red;
-	color: white;
+	background: #854D27;
 	padding: 10px;
 	display: inline-block;
+	float: right;
+	margin-bottom: 10px;
 
+}
+
+.btn a{
+	color: #FBF5F3;
+	text-decoration: none;
+}
+.btn a:hover{
+	
+	text-decoration: underline;
 }
 
 .download{
@@ -214,18 +232,10 @@ footer a:hover{
 /*Work Experience & Education
 --------------------*/
 
-.work{
-	background: #cecfc7;
-}
-
-.work h2{
-	color: #22333b;
-	font-weight: 700;
-}
 
 .affil{
 	font-weight: 500;
-	color: #22333b;
+	color: #242038;
 	font-size: 17px;
 	margin-bottom: 10px;
 }
@@ -233,20 +243,41 @@ footer a:hover{
 .dates{
 	font-weight: 300;
 	font-size: 15px;
-	color: #22333b;
+	color: #242038;
 }
 
 h3 ~ p{
 	margin 0;
 }
 
-.edu{
-	background: #CECCCC;
+
+
+.project{
+	margin-top: 3px;
+	color: #242038;
+	font-weight: 500;
+	background:#eff9f0;
+	
 }
 
-.edu h2{
-	color: #22333b;
+.project:nth-of-type(odd){
+	background:#eff9f0;
+}
+.project:nth-of-type(even){
+	background:#bfd7ea;
+}
+
+
+.project h3{
+	margin-top: 10px;
+	color: #412234;
+}
+
+.subHeader h2{
+	font-size: 25px;
+	margin-top: 10px;
 	font-weight: 700;
+	margin-bottom: 10px;
 }
 
 
