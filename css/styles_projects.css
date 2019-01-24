@@ -40,13 +40,14 @@ h1, h2{
 h1{
 	font-size: 40px;
 	font-weight: 700;
-
+	color: #CCA43B;
 }
 h2{
 	font-size: 25px;
 	margin-top: 10px;
 	font-weight: 700;
 	margin-bottom: 20px;
+	color:#CCA43B;
 }
 
 
@@ -94,24 +95,6 @@ a:hover{
 
 
 
-.btn{
-	text-decoration: none;
-	background: #854D27;
-	padding: 10px;
-	display: inline-block;
-	float: right;
-	margin-bottom: 10px;
-
-}
-
-.btn a{
-	color: #FBF5F3;
-	text-decoration: none;
-}
-.btn a:hover{
-	
-	text-decoration: underline;
-}
 
 .download{
 	position: absolute;
@@ -280,6 +263,26 @@ h3 ~ p{
 	margin-bottom: 10px;
 }
 
+.btn{
+	text-decoration: none;
+	background: #854D27;
+	padding: 10px;
+	display: inline-block;
+	float: right;
+	margin-bottom: 10px;
+	color: #FBF5F3;
+
+}
+
+.btn a{
+	color: #FBF5F3;
+	text-decoration: none;
+}
+.btn a:hover{
+	
+	text-decoration: underline;
+	color: #FBF5F3;
+}
 
 
 

@@ -27,6 +27,7 @@ body{
 	font-family: 'Montserrat', sans-serif;
 	margin: 0;
 	text-align: justify;
+	background: #343434;
 }
 h1, h2{
 	font-family: 'Lato', sans-serif;
@@ -53,6 +54,7 @@ h3{
 
 h4{
 	margin: 0;
+	color: #412234;
 }
 
 a{
@@ -86,6 +88,7 @@ a:hover{
 	padding-left: 20px;
 	min-height: 175px;
 	margin-bottom: 20px;
+	margin-top: 40px;
 }
 
 
@@ -110,23 +113,38 @@ a:hover{
 .profile-img{
 	width: 200px;
 	height: 200px;
-	float: center;
-	margin-top: 20px;
+	float: left;
+	margin-top: 40px;
 	margin-bottom: 20px;
+	border-radius: 50%;
 }
 
-.content{
+.intro{
 	background:#343434; 
 	font-weight: 500;
 	color:#FBF5F3;
-	width:100%;
+	
 }
 
 .location{
-	background:#343434; 
+	background: #eff9f0;
 	font-weight: 500;
-	color:#FBF5F3;
+	color:black;
+	padding-top: 20px;
+	padding-bottom: 30px;
+
 }
+
+.location a{
+	text-decoration: none;
+	color:black;
+}
+
+.location a:hover{
+	text-decoration: underline;
+	color: black;
+}
+
 
 
 

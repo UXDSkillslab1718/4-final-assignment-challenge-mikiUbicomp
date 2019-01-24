@@ -27,6 +27,7 @@ body{
 	font-family: 'Montserrat', sans-serif;
 	margin: 0;
 	text-align: justify;
+	background: #343434;
 }
 h1, h2{
 	font-family: 'Lato', sans-serif;
@@ -66,6 +67,7 @@ a:hover{
 	margin: 0 auto;
 	padding: 60px, 50px;
 	overflow: auto;
+	margin-top: 5px;
 }
 
 .col-narrow{
@@ -88,19 +90,32 @@ a:hover{
 
 .btn{
 	text-decoration: none;
-	background: red;
-	color: white;
+	background: #854D27;
 	padding: 10px;
 	display: inline-block;
+	float: right;
+	margin-bottom: 10px;
+	color: #FBF5F3;
 
 }
 
-.download{
-	position: absolute;
-	bottom: 0;
-	right: o;
+.btn a{
+	color: #FBF5F3;
+	text-decoration: none;
+}
+.btn a:hover{
+	
+	text-decoration: underline;
+	color: #FBF5F3;
+}
+
+.resume{
+	float:right;
+	color: #FBF5F3;
+	font-weight: 500;
 
 }
+
 
 
 
